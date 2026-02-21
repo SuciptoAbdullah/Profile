@@ -1,18 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sucipto Abdullah</title>
-    <link rel="stylesheet" href="./view/style/general.css">
-    <link rel="stylesheet" href="./view/style/navbar.css">
+    <title>Portofolio - Sucipto Abdullah</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav id="nav"></nav>
-    <main></main>
-</body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo nama">Sucipto Abdullah</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#kemampuan">Kemampuan</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">☰</div>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Foto Profil">
+        </div>
+        <div class="hero-text">
+            <h1 class="nama">Sucipto Abdullah</h1>
+            <p class="jurusan">Mahasiswa Informatika</p>
+            <button onclick="scrollToSection('tentang')">Lihat Profil</button>
+        </div>
+    </div>
+</section>
+
+<!-- Tentang -->
+<section id="tentang" class="section">
+    <h2>Tentang Saya</h2>
+    <p class="rincian-info">
+        Saya Sucipto Abdullah, mahasiswa yang terus mengembangkan diri dalam dunia Informatika.
+        Dengan latar belakang pendidikan dan pengalaman proyek nyata, saya berfokus pada
+        pengembangan sistem, desain, serta solusi digital yang berdampak.
+    </p>
+</section>
+
+<!-- Pendidikan -->
+<section id="pendidikan" class="section pendidikan">
+    <h2>Pendidikan</h2>
+
+    <div class="card pink">
+        <h3>SMKN 1 Krangeng</h3>
+        <p>Multi Media (2021 - 2024)</p>
+    </div>
+
+    <div class="card blue">
+        <h3>Politeknik Negeri Indramayu</h3>
+        <p>D3 Teknik Informatika (2024 - Sekarang)</p>
+    </div>
+</section>
+
+<!-- Pengalaman -->
+<section id="pengalaman" class="section pengalaman">
+    <h2>Pengalaman</h2>
+    <div class="card green">
+        <p>Magang Graphic Design - 2023</p>
+    </div>
+    <div class="card pink">
+        <p>Website Wingspart25 - 2025</p>
+    </div>
+    <div class="card blue">
+        <p>Website Repository Polindra - 2025</p>
+    </div>
+</section>
+
+<!-- Kemampuan -->
+<section id="kemampuan" class="section kemampuan">
+    <h2>Kemampuan</h2>
+    <div class="skills">
+        <span>Graphic Design</span>
+        <span>Web Development</span>
+        <span>Game Development</span>
+        <span>Data Analysis</span>
+    </div>
+</section>
+
+<!-- Kontak -->
+<section id="kontak" class="section kontak">
+    <h2>Kontak</h2>
+    <ul class="contact-list">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Tiktok</a></li>
+        <li><a href="#">Github</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Sucipto Abdullah</p>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="script.js"></script>
+</body>
 </html>

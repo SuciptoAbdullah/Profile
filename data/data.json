@@ -1,0 +1,81 @@
+{
+    "nama" : "Sucipto Abdullah",
+    "rincian_info" : "Saya Sucipto Abdullah, mahasiswa yang mencari ilmu tanpa memandang tempat. Dengan latar belakang pendidikan dan pengalaman dalam dunia Informatika, saya telah mendapatkan pemahaman yang kuat tentang dunia informasi komputer yang diperlukan untuk berkembang di dunia kerja.",
+    "pendidikan" : [
+        {
+            "nama_pendidikan" : "SMKN 1 Krangeng",
+            "deskripsi" : "Jurusan ini mempersiapkan siswa untuk mengenal dunia komputer yang salah satunya pemograman, dimana para siswa-siswi di jurusan ini belajar pemograman menggunakan bahasa Python tingkat dasar dan juga Action Script untuk kebutuhan Adobe Flash",
+            "jurusan" : "Multi Media",
+            "pencapaian" : [
+                {
+                    "nama_pencapaian" : "juara 3 lomba desain grafis",
+                    "info_tambahan" : "Pada saat kelas 10, saya ditujuk menjadi perwakilan dari sekolah untuk mengikuti lomba kompensi siswa yang diikuti oleh banyak SMK lain"
+                },
+                {
+                    "nama_pencapaian" : "memahami dasar dari bahasa Python",
+                    "info_tambahan" : "Pada saat kelas 10, saya dan siswa lain diperkenalkan pada bahasa pemograman python. Selama kita mempelajari bahasa Python, kita diajari algoritma sederhana dengan bahasa tersebut"
+                },
+                {
+                    "nama_pencapaian" : "mampu membuat aplikasi sederhana menggunakan Adobe Flash",
+                    "info_tambahan" : "Walau sudah tutup, dulu Adobe flash adalah Engine yang sering digunakan oleh banyak daveloper untuk membuat aplikasi sederhana. Aplikasi yang ku buat adalah aplikasi yang memperkenalkan pengguna terhadap mahanan lokal"
+                }
+            ],
+            "tahun_mulai" : "2021",
+            "tahun_selesai" : "2024"
+        },
+        {
+            "nama_pendidikan" : "Politeknik Negeri Indramayu",
+            "deskripsi" : "Jurusan Informatika di kampus ini memperkenalkan mahasiswanya dalam dunia teknologi informasi yang lebih dalam. Pada jurusan informatika ini, mahasiswa diharuskan mampu dalam membuat proyek di semester 2 hingga 4 dengan mitra yang nyata.",
+            "jurusan" : "D3 Teknik Informatika",
+            "pencapaian" : [
+                {
+                    "nama_pencapaian" : "berhasil membuat proyek website Wingspart25 menggunakan PHP native",
+                    "info_tambahan" : "Pada semester 2, saya berhasil membuat websiter yang diperuntukan untuk toko sprarepart motor bernama Wingspart25 dengan menggunakan php native",
+                    "link_hasil" : ""
+                },
+                {
+                    "nama_pencapaian" : "membuat proyek repository kampus website dengan PHP Laravel",
+                    "info_tambahan" : "Pada semester 3, saya membantu kampus dalam membuat proyek repository mahasiswa. Proyek ini diperuntukan untuk mahasiswa teknik informatika agar dapat mempromosikan proyek mereka ke industri",
+                    "link_hasil" : ""
+                }
+            ],
+            "tahun_mulai" : "2024",
+            "tahun_selesai" : "sekarang"
+        }
+    ],
+    "pengalaman" : [
+        {
+            "nama_pengalaman" : "Magang sebagai graphic design di PT.Elca",
+            "waktu" : "january 2023 - maret 2023"
+        },
+        {
+            "nama_pengalaman" : "Membuat Website untuk toko sparepart motor Wingspart25",
+            "waktu" : "january 2025 - mei 2025"
+        },
+        {
+            "nama_pengalaman" : "Membuat Website untuk repository proyek mahasiswa teknik informatika Polindra",
+            "waktu" : "september 2025 - desember 2025"
+        }
+    ],
+    "kemampuan" : [
+        "Graphic Design",
+        "Web Development",
+        "Game Development",
+        "Data Analysis"
+    ],
+    "kontak" : [
+        {
+            "nama_kontak" : "Instagram",
+            "link_kontak" : "https://www.instagram.com/makhluk_bumi_0afa/"
+        },
+        {
+            "nama_kontak" : "Tiktok",
+            "link_kontak" : "https://www.tiktok.com/@sucipto_abd"
+        },
+        {
+            "nama_kontak" : "Github",
+            "link_kontak" : "https://github.com/SuciptoAbdullah"
+        }
+    ]
+
+}
